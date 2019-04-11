@@ -4,6 +4,12 @@ body {
     font-size:13pt;
 }
 
+.currentProjects {
+    border:2px solid darkblue;
+    padding:10px;
+    margin-top:15px;
+}
+
 #fixed {
     position: fixed;
     padding: 25px;
