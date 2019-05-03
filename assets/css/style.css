@@ -219,14 +219,21 @@ input[type=submit] {
     color:#777777;
 }
 
-.columnLeft {
+.column1 {
     float:left;
     margin:5px;
     height:400px;
     width:260px;
 }
 
-.columnRight {
+.column2 {
+    float:left;
+    margin:5px;
+    height:400px;
+    width:260px;
+}
+
+.column3 {
     float:left;
     margin:5px;
     height:400px;

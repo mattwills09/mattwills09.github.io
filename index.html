@@ -11,24 +11,32 @@
 
 <body>
 
-    <header>
-        <div id="logo"><a class="logo" href="index.html">Matt Williams</a></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-me navbar-brand" href="index.html" style="color:white">Matt Williams</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
 
-        <div class="nav">
-        <ul>
-            <li class="link1"><a href="index.html">About</a></li>
-            <li class="link1"><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+            <a class="nav-item nav-link link1" href="index.html">About<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link link1" href="portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+    </div>
+    </nav>
+
+<div id="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>About Me</h1>
+                <hr>
+            </div>
         </div>
 
-    </header>
-
-    <div class="wrapper">
-
-        <div id="main">
-            <h1>About Me</h1>
-            <hr color="#dddddd">
+        <div class="row">
+            <div class="col-md-12">
             <img id="me" src="https://steamuserimages-a.akamaihd.net/ugc/883127927508578328/B44B711765D45976BCD4BF224E168D0AC94C1F83/" alt="Me!">
 
             <p>Suspendisse accumsan sed metus varius tempor. Quisque varius, nisi in semper dictum, leo magna tempor nisl, quis tempor erat eros at nunc. Donec venenatis, dui id faucibus vulputate, lacus sapien gravida ex, eu aliquam risus ligula nec enim. Morbi mattis commodo aliquam. Nulla vel metus velit.</p>
@@ -36,19 +44,15 @@
             <p>Quisque varius, nisi in semper dictum, leo magna tempor nisl, quis tempor erat eros at nunc. Donec venenatis, dui id faucibus vulputate, lacus sapien gravida ex, eu aliquam risus ligula nec enim. Morbi mattis commodo aliquam. Nulla vel metus velit.</p>
 
             <p>Accumsan sed metus varius tempor. Quisque varius, nisi in semper dictum, leo magna tempor nisl, quis tempor erat eros at nunc. Donec venenatis, dui id faucibus vulputate, lacus sapien gravida ex, eu aliquam risus ligula nec enim. Morbi mattis commodo aliquam. Nulla vel metus velit.</p>
-
+            </div>
         </div>
     </div>
-    
+</div>
+
+<footer class="page-footer font-small blue" style="background-color:#4aaa">
+    <div class="footer-copyright text-center py-3" style="font-size:12px">©Copyright2019
     </div>
-
-    <footer id="footer1">
-        Copyright&reg; 2019
-    </footer>
-
-
-
+</footer>
 
 </body>
-
 </html>
