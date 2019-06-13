@@ -164,10 +164,11 @@ a:link {
 
 #me {
     float:left;
-    width:190px;
-    height:160px;
-    padding:0px;
-    margin:15px;
+    width:180px;
+    height:250px;
+    margin:10px 15px 10px 5px;
+    padding:1px;
+    border:2px solid darkseagreen;
 }
 
 h1 {
