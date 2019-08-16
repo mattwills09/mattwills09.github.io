@@ -4,9 +4,16 @@
 <head>
     <meta charset="UTF-8" meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio Page</title>
+<!-- Fav Icon -->
     <link rel="icon" type="image/png" href="assets/images/bombicon.jpg">
+<!-- CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
+<!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
+<!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
 </head>
 
 <body>
@@ -16,12 +23,13 @@
         
         <div class="nav">
             <ul>
-                <li class="link1"><a href="index.html">About</a></li>
-                <li class="link1"><a href="portfolio.html">Portfolio</a></li>
+                <li class="link1"><a href="index.html">About</a>
+                    &nbsp; <span style="color:white">|</span></li>
+                <li class="link1"><a href="portfolio.html">Portfolio</a>
+                    &nbsp; <span style="color:white">|</span></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
-        
 </header>
 
 <div id="main">
@@ -35,11 +43,11 @@
 
         <div class="row">
             <div class="col-md-12" id="aboutMe">
-            <img id="me" src="assets/images/mw-pic.jpg" alt="Me!">
+            <img class="me" src="assets/images/mw-pic.jpg" alt="Me!">
 
-            <p> &nbsp;	&nbsp;	<b><em>Matthew Williams</em></b> is a Full-Stack Web Developer, with a background in front-end and graphic design.  A recent graduate of the University of Pennsylvania's Full-Stack Web Development program, and a Bachelor of Arts Degree earned from Duquense University in Multimedia Design (and a minor in Psychology).  With past career career experiences in NYC, Brooklyn, Queens and Philadelphia in graphic and front end design, along with back, server-side and database knowledge, he is able to be fluent and productive in all apsects of the design process.</p>
+            <p> &nbsp;&nbsp; <b><em>Matthew Williams</em></b> is a Full-Stack Web Developer, with a background in front end and graphic design.  A recent graduate of the University of Pennsylvania's Full-Stack Web Development program, and a Bachelor of Arts Degree earned from Duquense University in Multimedia Design, including a minor in Psychology.  With past career career experiences in NYC/Brooklyn/Queens and Philadelphia in graphic and front end design, along with back, server-side and database knowledge, he is able to be fluent and productive in all apsects of the design process.</p>
 
-            <p>Matt is fueled by his passion for clean and sharp designs, as well as being able to write clear and consice code to add dynamic functionality and creative apsects to each project or application he is involved in.  He is constantly coding, learning and improving on new languages, and is eager to continue to learn and build on his academic and professional foundation as a well-rounded full-stack developer.</p>
+            <p>Matt is fueled by his passion for clean and sharp UI/UX designs, as well as being able to write clear, organized and consice code to add dynamic functionality and creative apsects to every project or application he is involved in.  He is constantly coding, learning and improving on new languages, and is eager to continue to learn and build on his academic and professional foundation as a well-rounded full-stack developer.</p>
 
             <p>His determination and creative mindset has contributed to his most recent success as a graduate of the UPenn full-stack program, and his position before that as a successful real estate salesperson and media manager at his firm in Philadelphia.  There, he led his firm's team with over $2.5 mil in net sales, as well as handling the drafting and creating of all marketing design materials, including emails, advertisements, mailers, and signs for owned and managed buidlings.</p>
 
@@ -52,16 +60,10 @@
     </div>
 </div>
 
-<script>
-        function increment() {
-            console.log("Oh hello.. didn't expect to see you here.");
-        }
-
-        increment();
-    </script>
-
 <footer id="footer2">Copyright&reg; MW | 2019
 </footer>
+
+<script src="./assets/js/script.js"></script>
 
 </body>
 </html>
