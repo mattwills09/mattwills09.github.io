@@ -4,7 +4,7 @@ $(document).ready(function() {
        
         $(".me").hover(
             function() {
-                $(this).addClass('hover').css('cursor', 'help');
+                $(this).addClass('hover').css('cursor', 'crosshair');
             },
             function() {
                 $(this).removeClass('hover');
