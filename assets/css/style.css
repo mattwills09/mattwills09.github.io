@@ -52,6 +52,7 @@ hr {
     color:white;
     background-color:darkcyan;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px blue;
 }
 .logo:link {
     color:white;
