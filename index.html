@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Matthew Williams — senior software engineer with a design background, building thoughtful interfaces and dependable full-stack applications.">
-  <title>Senior software engineer | Matthew Williams</title>
+  <title>MJW | Senior Software Engineer</title>
   <link rel="icon" type="image/svg+xml" href="assets/images/monogram.svg">
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="assets/js/script.js" defer></script>
@@ -15,14 +15,20 @@
     <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">MW</span>Matthew Williams</a>
     <nav aria-label="Main navigation"><a href="index.html" aria-current="page">About</a>
 <a href="portfolio.html">Work</a>
-<a href="contact.html">Contact</a></nav>
+<a href="contact.html">Contact</a><button class="command-trigger" type="button" aria-haspopup="dialog" aria-controls="command-palette" hidden>Jump to <kbd>/</kbd></button></nav>
   </header>
-  <main id="main">    <section class="hero">
+  <main id="main">
+    <div class="hood-controls">
+      <button id="hood-toggle" class="hood-toggle" type="button" aria-expanded="false" aria-controls="hood-interface hood-experience hood-projects" hidden>Under the hood <span aria-hidden="true">＋</span></button>
+      <span id="hood-status" class="sr-only" role="status"></span>
+    </div>
+    <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">Senior software engineer · Design background</p>
+        <p class="eyebrow">Senior Software Engineer · Design background</p>
         <h1>Thoughtful interfaces.<br><em>Dependable software.</em></h1>
-        <p class="intro">Senior software engineering with 7+ years of production experience, deep Angular and TypeScript expertise, and a background in design. Turning complex or loosely defined requirements into intuitive interfaces and end-to-end solutions, with current React development deployed on Vercel.</p>
+        <p class="intro">Senior Software Engineering with 7+ years of production experience, deep Angular and TypeScript expertise, and a background in design. Turning complex or loosely defined requirements into intuitive interfaces and end-to-end solutions, with current React development deployed on Vercel.</p>
         <div class="actions"><a class="button" href="portfolio.html">Explore selected work <span aria-hidden="true">↗</span></a><a class="text-link" href="contact.html">Let's connect</a></div>
+        <aside id="hood-interface" class="hood-note" hidden><h2>Interface decisions</h2><p>Serif headings add character; sans-serif text keeps longer passages readable. Shared color tokens keep the palette consistent. The wallpaper is a decorative CSS layer, so it stays separate from content and controls. Its movement is disabled for reduced-motion preferences and touch-first devices.</p></aside>
       </div>
       <figure class="portrait"><img src="assets/images/matthew-williams-headshot.png" alt="Matthew Williams" width="1122" height="1402"><figcaption>Engineering with a design perspective.</figcaption></figure>
     </section>
@@ -38,15 +44,28 @@
         <div class="capabilities"><div><span class="eyebrow">Frontend</span><p>Angular · TypeScript · JavaScript · React</p></div><div><span class="eyebrow">Backend &amp; data</span><p>Java · Spring Boot · REST APIs · Kafka<br>Node.js · Express · SQL · MySQL · MongoDB</p></div><div><span class="eyebrow">Delivery</span><p>AWS · Kubernetes · CircleCI · ArgoCD<br>Grafana · Loki · Production support<br>Vercel · Independent project deployment</p></div><div><span class="eyebrow">Approach</span><p>UI/UX · Stakeholder collaboration<br>Requirements clarification · AI-assisted development</p></div></div>
       </div>
     </section>
+    <aside id="hood-experience" class="hood-note" hidden><h2>Content is part of the architecture</h2><p>Professional work, independent projects, and planned tools are identified separately. That makes the experience easier to evaluate without overstating what is implemented. Semantic headings and sections give the same structure to keyboard and screen-reader navigation.</p></aside>
+    <div class="graphic-divider" aria-hidden="true"></div>
     <section class="section" aria-labelledby="selected-title">
       <div class="section-heading heading-row"><div><p class="eyebrow">Selected work</p><h2 id="selected-title">Something you can explore.</h2></div><a class="text-link" href="portfolio.html">View project details <span aria-hidden="true">↗</span></a></div>
       <div class="project-grid">
-        <article class="project-card"><p class="eyebrow">Professional work · Public demo</p><h3>Safely SDK demo</h3><p>A public booking demo featuring an embedded travel insurance SDK widget, from professional work at Safely.</p><p class="stack">Embedded SDK · Travel insurance</p><a class="text-link" href="https://demo.safely.com/be/" target="_blank" rel="noopener noreferrer" aria-describedby="external-link-note">Explore the demo <span aria-hidden="true">↗</span></a></article>
-        <article class="project-card"><p class="eyebrow">Personal project · In development</p><h3>Family League Legacy</h3><p>A fantasy football dashboard bringing standings, team records, and league achievements into one responsive interface.</p><p class="stack">React · TypeScript · Vite · Vercel</p><a class="text-link" href="https://family-league-legacy.vercel.app/" target="_blank" rel="noopener noreferrer" aria-describedby="external-link-note">Explore the app <span aria-hidden="true">↗</span></a></article>
+        <article class="project-card"><p class="eyebrow">Professional work · Public demo</p><h3>Safely SDK demo</h3><figure class="project-preview"><div class="preview-chrome" aria-hidden="true"><span class="preview-dots">● ● ●</span><span>demo.safely.com/be</span></div><img src="assets/images/safely-demo-preview.jpg" alt="Screenshot of Safely booking demo" width="1280" height="720" loading="lazy"><figcaption>Live-site capture · October 2026</figcaption></figure><p>A public booking demo featuring an embedded travel insurance SDK widget, from professional work at Safely.</p><p class="stack">Embedded SDK · Travel insurance</p><a class="text-link" href="https://demo.safely.com/be/" target="_blank" rel="noopener noreferrer" aria-describedby="external-link-note">Explore the demo <span aria-hidden="true">↗</span></a></article>
+        <article class="project-card"><p class="eyebrow">Personal project · In development</p><h3>Family League Legacy</h3><figure class="project-preview"><div class="preview-chrome" aria-hidden="true"><span class="preview-dots">● ● ●</span><span>family-league-legacy.vercel.app</span></div><img src="assets/images/family-league-preview.jpg" alt="Screenshot of Family League Legacy standings dashboard" width="1280" height="720" loading="lazy"><figcaption>Live-site capture · October 2026</figcaption></figure><p>A fantasy football dashboard bringing standings, team records, and league achievements into one responsive interface.</p><p class="stack">React · TypeScript · Vite · Vercel</p><a class="text-link" href="https://family-league-legacy.vercel.app/" target="_blank" rel="noopener noreferrer" aria-describedby="external-link-note">Explore the app <span aria-hidden="true">↗</span></a></article>
       </div>
     </section>
+    <aside id="hood-projects" class="hood-note" hidden><h2>A small site, deliberately</h2><p>This portfolio uses HTML, CSS, and a small JavaScript enhancement layer. Navigation and project content work without JavaScript. External links open separately; older projects remain in an archive. Family League Legacy is the React/TypeScript example, with derived statistics and reusable components.</p></aside>
     <section class="section closing"><h2>Good software starts with understanding.</h2><p>A B.A. in Multimedia Design from Duquesne University and full-stack development training at the University of Pennsylvania complement practical engineering experience. The result: attention to usability, clear communication, and thoughtful implementation.</p><a class="text-link" href="contact.html">Get in touch <span aria-hidden="true">↗</span></a></section></main>
   <span id="external-link-note" class="sr-only">Opens in a new tab</span>
-  <footer class="site-footer"><span>&copy; <span data-year>2026</span> Matthew Williams</span><a href="https://github.com/mattwills09" target="_blank" rel="noopener noreferrer" aria-describedby="external-link-note">GitHub <span aria-hidden="true">↗</span></a></footer>
+  <footer class="site-footer"><div><span>&copy; <span data-year>2026</span> Matthew Williams</span><p class="footer-signoff">Built with care.. and a few strong opinions about spacing ;)</p></div><a href="https://github.com/mattwills09" target="_blank" rel="noopener noreferrer" aria-describedby="external-link-note">GitHub <span aria-hidden="true">↗</span></a></footer>
+
+  <dialog id="command-palette" class="command-palette" aria-labelledby="command-title">
+    <div class="command-heading"><h2 id="command-title">Jump to…</h2><button type="button" class="command-close" aria-label="Close command palette">Esc</button></div>
+    <label class="sr-only" for="command-search">Search pages and projects</label>
+    <input id="command-search" class="command-search" type="search" placeholder="Find a page or project…" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="command-results">
+    <div id="command-results" class="command-results" role="listbox" aria-label="Pages and projects"></div>
+    <p id="command-empty" hidden>No matches. Try “work”, “contact”, or “archive”.</p>
+    <p class="command-help">↑ ↓ to explore · Enter to open · Esc to close</p>
+    <span id="command-status" class="sr-only" role="status"></span>
+  </dialog>
 </body>
 </html>

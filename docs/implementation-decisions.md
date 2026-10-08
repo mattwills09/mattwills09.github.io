@@ -55,3 +55,21 @@
 - Use the resume for content only; no public resume download, phone number, or personal contact details copied into the site.
 - Testimonial now uses a neutral Professional recommendation attribution, with no CTO title or employment timing in visible text or accessible labels. Quote unchanged.
 - Replace the Angular-specific testimonial with the verbatim recommendation excerpt about navigating ambiguity, collaboration, and outstanding user experiences. Keep the neutral Professional recommendation attribution.
+
+## Under the hood and wallpaper interaction — October 8, 2026
+- Add a keyboard-operable homepage disclosure button with aria-expanded/aria-controls and a concise live status. Three initially hidden notes explain interface, content, and project architecture in context.
+- Show the button only after JavaScript initializes. Without JavaScript, the normal portfolio remains fully navigable and optional notes stay hidden.
+- Wallpaper alone shifts at most 5px horizontally and 3px vertically in response to a fine pointer. Text and portrait stay stationary; no looping motion.
+- Use requestAnimationFrame to coalesce pointer updates, a short CSS transition to soften movement, and pointerleave/window-blur resets.
+- Honor reduced motion and disable movement on touch/coarse pointers in both JavaScript and CSS. Reset when those preferences change.
+- Validation: JavaScript syntax, local asset/link checks, and Git whitespace checks passed. Browser confirmed all three notes appear and hide, Enter activates the toggle, and pointer interaction produces bounded wallpaper offsets. Reduced-motion and coarse-pointer safeguards were reviewed in code.
+
+## Command palette, previews, graphic divider, and footer — October 8, 2026
+- Add a shared native dialog command palette to active pages with a visible Jump to button, slash and Ctrl/Cmd+K shortcuts, filtered navigation, arrow keys, Enter activation, Escape dismissal, and focus restoration. Avoid intercepting typing in editable fields.
+- Use a combobox/listbox pattern, stable active-descendant IDs, a result-count status, and a helpful empty state. Build result labels with textContent rather than HTML from search input.
+- Add actual browser captures of both public project sites to homepage cards and project-detail pages. Safely shows the booking demo as currently rendered; do not fabricate a widget that was not visible in the captured viewport. Captures are static October 2026 previews, not live embeds.
+- Reuse the existing geometric wallpaper in a short decorative divider before selected work. Add the user-approved playful sign-off across active page footers.
+- Keep navigation, project links, and all content usable without JavaScript; command trigger is progressively revealed only in supporting browsers.
+- Validation: syntax, whitespace, local assets, and page links passed. Browser verified slash/Ctrl+K opening, filtering, empty results, arrow selection, Enter navigation, immediate Escape dismissal, focus restoration, and that typing slash in the contact message does not open the palette. Both project screenshots load successfully.
+- Replace the rounded wallpaper divider with a static angled ribbon: shallower crop, slanted ends, thin aqua outline, and a modest horizontal offset. Keep responsive dimensions within the content width.
+- Preview the faded-texture divider variant: remove the angled outline and dissolve the existing wallpaper into the page on all edges with a low-opacity CSS mask. Preserve the ribbon rules for comparison during design exploration.

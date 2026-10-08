@@ -15,7 +15,7 @@
     <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">MW</span>Matthew Williams</a>
     <nav aria-label="Main navigation"><a href="index.html">About</a>
 <a href="portfolio.html">Work</a>
-<a href="contact.html" aria-current="page">Contact</a></nav>
+<a href="contact.html" aria-current="page">Contact</a><button class="command-trigger" type="button" aria-haspopup="dialog" aria-controls="command-palette" hidden>Jump to <kbd>/</kbd></button></nav>
   </header>
   <main id="main">
     <section class="page-intro contact-intro"><p class="eyebrow">Contact</p><h1>Let's build<br><em>something useful.</em></h1><p class="intro">Engineering opportunities, project ideas, or a quick hello. Start a conversation below or write from your browser.</p></section>
@@ -35,6 +35,16 @@
     </div>
   </main>
   <span id="external-link-note" class="sr-only">Opens in a new tab</span>
-  <footer class="site-footer"><span>&copy; <span data-year>2026</span> Matthew Williams</span><a href="https://github.com/mattwills09" target="_blank" rel="noopener noreferrer" aria-describedby="external-link-note">GitHub <span aria-hidden="true">↗</span></a></footer>
+  <footer class="site-footer"><div><span>&copy; <span data-year>2026</span> Matthew Williams</span><p class="footer-signoff">Built with care.. and a few strong opinions about spacing ;)</p></div><a href="https://github.com/mattwills09" target="_blank" rel="noopener noreferrer" aria-describedby="external-link-note">GitHub <span aria-hidden="true">↗</span></a></footer>
+
+  <dialog id="command-palette" class="command-palette" aria-labelledby="command-title">
+    <div class="command-heading"><h2 id="command-title">Jump to…</h2><button type="button" class="command-close" aria-label="Close command palette">Esc</button></div>
+    <label class="sr-only" for="command-search">Search pages and projects</label>
+    <input id="command-search" class="command-search" type="search" placeholder="Find a page or project…" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="command-results">
+    <div id="command-results" class="command-results" role="listbox" aria-label="Pages and projects"></div>
+    <p id="command-empty" hidden>No matches. Try “work”, “contact”, or “archive”.</p>
+    <p class="command-help">↑ ↓ to explore · Enter to open · Esc to close</p>
+    <span id="command-status" class="sr-only" role="status"></span>
+  </dialog>
 </body>
 </html>

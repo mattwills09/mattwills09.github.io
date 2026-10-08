@@ -8,7 +8,7 @@ A lightweight personal portfolio built with HTML, CSS, and JavaScript, hosted on
 - contact.html: direct email and GitHub links
 - portfolio-archive.html: original project gallery, preserved for historical context
 
-Shared presentation lives in assets/css/style.css. JavaScript is limited to the footer year. No build step or framework is required.
+Shared presentation lives in assets/css/style.css. JavaScript enhances the footer year, optional engineering notes, and subtle pointer-driven wallpaper movement. No build step or framework is required.
 
 Serve the repository with any local static web server to preview. See docs/implementation-decisions.md for the refresh rationale and remaining archive-link review.
 
