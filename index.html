@@ -1,69 +1,47 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio Page</title>
-<!-- Fav Icon -->
-    <link rel="icon" type="image/png" href="assets/images/bombicon.jpg">
-<!-- CSS Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
-<!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<!-- Bootstrap -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Matthew Williams — senior software engineer with a design background, building thoughtful interfaces and dependable full-stack applications.">
+  <title>Senior software engineer | Matthew Williams</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/monogram.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js" defer></script>
 </head>
-
 <body>
-
-<header>
-    <div id="logo"><a class="logo" href="index.html">Matt Williams</a></div>
-        
-        <div class="nav">
-            <ul>
-                <li class="link1"><a href="index.html" style="text-shadow: .5px .5px lightblue; font-style:italic">About</a>
-                    &nbsp; <span style="color:white">|</span></li>
-                <li class="link1"><a href="portfolio.html">Portfolio</a>
-                    &nbsp; <span style="color:white">|</span></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-</header>
-
-<div id="main">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>About Me</h1>
-                <hr>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12" id="aboutMe">
-            <img class="me" src="assets/images/mw-pic.jpg" alt="Me!">
-
-            <p> &nbsp;&nbsp; <b><em>Matthew Williams</em></b> is a Full-Stack Web Developer, with a background in front end and graphic design, currently employed as a Software Engineer for a firm just outside of Philadelphia.  He is a graduate of the University of Pennsylvania's Full-Stack Web Development program, and has earned a Bachelor of Arts Degree from Duquense University in Graphic and Multimedia Design, with a minor in Psychology.  With past career career experiences in NYC/Brooklyn/Queens and Philadelphia in graphic and front end design, along with extensive back end, server-side, and database knowledge, he is able to be fluent and productive in all apsects of the design process.</p>
-
-            <p>Matt is fueled by his passion for clean and sharp UI/UX designs, as well as being able to write clear, organized and consice code to add dynamic functionality and creative apsects to every project or application he is involved in.  He is constantly coding, learning and improving on new languages, and is eager to continue to learn and build on his academic and professional foundation as a well-rounded full-stack developer.</p>
-
-            <p>His determination and creative mindset has contributed to his most recent success as a graduate of the UPenn full-stack program, and his position before that as a successful real estate salesperson and media manager at his firm in Philadelphia.  There, he led his firm's team with over $2.5 mil in net sales, as well as handling the drafting and creating of all marketing design materials, including emails, advertisements, mailers, and signs for owned and managed buidlings.</p>
-
-            <p>Previously as a freelance brand manager, graphic designer, and even as an associate water inspector for the NYC Department of Environmental Protectoin, at every position Matt has held, he has vastly improved the productivity of his department by implementing strategic project management methods, and streamlining technological processes to save time and improve projects.  He believes hard work and loyalty in the workplace is key to success, and lives these ideals out by always striving to learn and improve himself and his skills.</p>
-
-            <p>Matt is currently employed as a Software Engineer, but is always open to any opportunities that would challenge him and continue his passsion, to put his extensive skills to good use by creating dynamic, functional and eye-catching applications and sites.  Feel free to reach out to Matt anytime at MattWills09@gmail.com to connect!</p>
-
-            </div>
-        </div>
-    </div>
-</div>
-
-<footer id="footer2">Copyright&reg; MW | 2019
-</footer>
-
-<script src="./assets/js/script.js"></script>
-
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">MW</span>Matthew Williams</a>
+    <nav aria-label="Main navigation"><a href="index.html" aria-current="page">About</a>
+<a href="portfolio.html">Work</a>
+<a href="contact.html">Contact</a></nav>
+  </header>
+  <main id="main">    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Senior software engineer · Design background</p>
+        <h1>Thoughtful interfaces.<br><em>Dependable software.</em></h1>
+        <p class="intro">Matthew Williams brings 7+ years of production web development experience to the intersection of design and engineering. Clear interfaces, considered architecture, and a full-stack understanding of how products work. Current independent development includes React and TypeScript applications deployed on Vercel.</p>
+        <div class="actions"><a class="button" href="portfolio.html">Explore selected work <span aria-hidden="true">↗</span></a><a class="text-link" href="contact.html">Let's connect</a></div>
+      </div>
+      <figure class="portrait"><img src="assets/images/matthew-williams-headshot.png" alt="Matthew Williams" width="1122" height="1402"><figcaption>Engineering with a design perspective.</figcaption></figure>
+    </section>
+    <section class="section" aria-labelledby="experience-title">
+      <div class="section-heading"><p class="eyebrow">Experience &amp; independent development</p><h2 id="experience-title">From interface to production.</h2></div>
+      <div class="experience-grid">
+        <div><h3>Full-stack development at Safely</h3><p>Experience spans Angular and TypeScript applications, Java/Spring Boot services, REST API integrations, and SQL and MongoDB data access.</p><p>Delivery and production experience covers AWS, Kubernetes, CircleCI, and ArgoCD, from implementation and debugging through release and ongoing support.</p><h3 class="independent-experience">React development with Family League Legacy</h3><p>A current independent project built with React, TypeScript, and Vite, deployed on Vercel. Work includes typed league models, derived statistics, accessible interactions, and responsive light and dark themes.</p><p>Supabase and PostgreSQL are planned for league-data persistence in a future milestone.</p><p class="private-note">Professional source code lives in private company repositories. The public Safely demo and independent projects offer examples to explore.</p></div>
+        <div class="capabilities"><div><span class="eyebrow">Frontend</span><p>Angular · TypeScript · JavaScript · React</p></div><div><span class="eyebrow">Backend &amp; data</span><p>Java · Spring Boot · REST APIs · SQL · MongoDB</p></div><div><span class="eyebrow">Delivery</span><p>AWS · Kubernetes · CI/CD · Production support<br>Vercel · Independent project deployment</p></div></div>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="selected-title">
+      <div class="section-heading heading-row"><div><p class="eyebrow">Selected work</p><h2 id="selected-title">Something you can explore.</h2></div><a class="text-link" href="portfolio.html">View project details <span aria-hidden="true">↗</span></a></div>
+      <div class="project-grid">
+        <article class="project-card"><p class="eyebrow">Professional work · Public demo</p><h3>Safely SDK demo</h3><p>A public booking demo featuring an embedded travel insurance SDK widget, from professional work at Safely.</p><p class="stack">Embedded SDK · Travel insurance</p><a class="text-link" href="https://demo.safely.com/be/" target="_blank" rel="noopener noreferrer" aria-describedby="external-link-note">Explore the demo <span aria-hidden="true">↗</span></a></article>
+        <article class="project-card"><p class="eyebrow">Personal project · In development</p><h3>Family League Legacy</h3><p>A fantasy football dashboard bringing standings, team records, and league achievements into one responsive interface.</p><p class="stack">React · TypeScript · Vite · Vercel</p><a class="text-link" href="https://family-league-legacy.vercel.app/" target="_blank" rel="noopener noreferrer" aria-describedby="external-link-note">Explore the app <span aria-hidden="true">↗</span></a></article>
+      </div>
+    </section>
+    <section class="section closing"><h2>Good software starts with understanding.</h2><p>A background in graphic and multimedia design informs the approach: clear communication, intuitive interactions, and details that make a product feel considered.</p><a class="text-link" href="contact.html">Get in touch <span aria-hidden="true">↗</span></a></section></main>
+  <span id="external-link-note" class="sr-only">Opens in a new tab</span>
+  <footer class="site-footer"><span>&copy; <span data-year>2026</span> Matthew Williams</span><a href="https://github.com/mattwills09" target="_blank" rel="noopener noreferrer" aria-describedby="external-link-note">GitHub <span aria-hidden="true">↗</span></a></footer>
 </body>
 </html>
