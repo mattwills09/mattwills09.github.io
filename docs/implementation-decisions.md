@@ -37,3 +37,8 @@
 ## Updated portrait — October 8, 2026
 - Replace the homepage portrait with the user-supplied HS2.png headshot, copied into the site's image assets under a descriptive filename.
 - Preserve the original image and existing responsive portrait frame; no photo retouching or generation. Retain the previous portrait asset for recovery.
+
+## Original vector wallpaper — October 8, 2026
+- Reuse assets/images/vec-wall-bg.jpg as a decorative hero texture behind the portrait side, preserving the original asset.
+- A low-opacity CSS pseudo-element and directional mask fade the artwork away from headline/body text. Reduce opacity and change fade direction on mobile.
+- Keep the wallpaper out of the accessibility tree and make the decorative layer ignore pointer events. No image editing, new asset generation, or layout change.
