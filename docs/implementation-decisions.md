@@ -42,3 +42,16 @@
 - Reuse assets/images/vec-wall-bg.jpg as a decorative hero texture behind the portrait side, preserving the original asset.
 - A low-opacity CSS pseudo-element and directional mask fade the artwork away from headline/body text. Reduce opacity and change fade direction on mobile.
 - Keep the wallpaper out of the accessibility tree and make the decorative layer ignore pointer events. No image editing, new asset generation, or layout change.
+
+## Portrait color presentation — October 8, 2026
+- Remove the desaturation that made the supplied headshot appear pale. Use a gentle CSS warm tint (6% sepia) and modest saturation boost (108%) instead.
+- Preserve the original headshot file; this changes only its appearance in the page, with no retouching of facial features.
+
+## Resume and CTO recommendation — October 8, 2026
+- Use the supplied resume as evidence for supported role dates, Safely SDK ownership, Kafka/Java services, observability tooling, and EMS POS/merchant portal work serving 300–400 locations.
+- Strengthen Angular/TypeScript and UI/UX positioning while retaining full-stack breadth and current independent React/Vercel development.
+- Add a verbatim excerpt from the user-provided recommendation, attributed to Safely's CTO and the supplied direct-management context. No name or endorsement invented.
+- Keep planned Supabase work separate from implemented experience. Include relevant Node/Express, testing, collaboration, and AI-assisted engineering context without claiming every tool was used at Safely.
+- Use the resume for content only; no public resume download, phone number, or personal contact details copied into the site.
+- Testimonial now uses a neutral Professional recommendation attribution, with no CTO title or employment timing in visible text or accessible labels. Quote unchanged.
+- Replace the Angular-specific testimonial with the verbatim recommendation excerpt about navigating ambiguity, collaboration, and outstanding user experiences. Keep the neutral Professional recommendation attribution.
