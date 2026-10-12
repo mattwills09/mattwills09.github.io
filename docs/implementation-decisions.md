@@ -73,3 +73,8 @@
 - Validation: syntax, whitespace, local assets, and page links passed. Browser verified slash/Ctrl+K opening, filtering, empty results, arrow selection, Enter navigation, immediate Escape dismissal, focus restoration, and that typing slash in the contact message does not open the palette. Both project screenshots load successfully.
 - Replace the rounded wallpaper divider with a static angled ribbon: shallower crop, slanted ends, thin aqua outline, and a modest horizontal offset. Keep responsive dimensions within the content width.
 - Preview the faded-texture divider variant: remove the angled outline and dissolve the existing wallpaper into the page on all edges with a low-opacity CSS mask. Preserve the ribbon rules for comparison during design exploration.
+
+## Résumé download — October 12, 2026
+- Host a public copy of the user-provided PDF at assets/documents/Matthew-Williams-Resume.pdf, leaving the desktop original untouched.
+- Add native download links to the homepage actions, shared navigation on all four active pages, and the contact introduction. Links work without JavaScript.
+- Keep the filename stable so job applications can reference the same URL when the résumé is replaced. The public URL becomes available after publishing the repository changes.

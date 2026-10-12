@@ -14,3 +14,6 @@ Serve the repository with any local static web server to preview. See docs/imple
 
 ## Contact form
 The quick-message form posts to FormSubmit for email forwarding. The recipient must submit once and confirm the activation email before delivery works. Gmail and Outlook web compose links are also available. No email credentials are stored in this repository.
+
+## Résumé
+The public PDF is assets/documents/Matthew-Williams-Resume.pdf. Replace that file with an updated copy using the same filename to preserve application links. Download links appear on the homepage, navigation, and contact page.
