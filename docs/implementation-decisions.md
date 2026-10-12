@@ -76,5 +76,5 @@
 
 ## Résumé download — October 12, 2026
 - Host a public copy of the user-provided PDF at assets/documents/Matthew-Williams-Resume.pdf, leaving the desktop original untouched.
-- Add native download links to the homepage actions, shared navigation on all four active pages, and the contact introduction. Links work without JavaScript.
+- Keep native download links in the homepage actions and contact introduction. Add a dedicated résumé section after the Work page case studies and before the project archive, with separate View résumé (new tab) and Download PDF actions. Keep the shared header focused on page navigation. All résumé links work without JavaScript.
 - Keep the filename stable so job applications can reference the same URL when the résumé is replaced. The public URL becomes available after publishing the repository changes.
