@@ -75,6 +75,6 @@
 - Preview the faded-texture divider variant: remove the angled outline and dissolve the existing wallpaper into the page on all edges with a low-opacity CSS mask. Preserve the ribbon rules for comparison during design exploration.
 
 ## Résumé download — October 12, 2026
-- Host a public copy of the user-provided PDF at assets/documents/Matthew-Williams-Resume.pdf, leaving the desktop original untouched.
+- Host a public copy of the user-provided PDF at assets/documents/Matthew_Williams_FullStack_Resume.pdf, leaving the desktop original untouched.
 - Keep native download links in the homepage actions and contact introduction. Add a dedicated résumé section after the Work page case studies and before the project archive, with separate View résumé (new tab) and Download PDF actions. Keep the shared header focused on page navigation. All résumé links work without JavaScript.
 - Keep the filename stable so job applications can reference the same URL when the résumé is replaced. The public URL becomes available after publishing the repository changes.
