@@ -78,3 +78,13 @@
 - Host a public copy of the user-provided PDF at assets/documents/Matthew_Williams_FullStack_Resume.pdf, leaving the desktop original untouched.
 - Keep native download links in the homepage actions and contact introduction. Add a dedicated résumé section after the Work page case studies and before the project archive, with separate View résumé (new tab) and Download PDF actions. Keep the shared header focused on page navigation. All résumé links work without JavaScript.
 - Keep the filename stable so job applications can reference the same URL when the résumé is replaced. The public URL becomes available after publishing the repository changes.
+
+## Portfolio polish — October 28, 2026
+- Update active-page branding to Matt Williams, including remaining footers, homepage title, and headshot alt text. Apply the approved “Thoughtful design. Dependable engineering.” headline without renaming résumé files or editing their contents.
+- Rewrite featured work around problem, contribution, and result. Replace outdated sample-only league claims with the verified ESPN adapter, typed boundary, server-side credentials, sorting, and automated tests. Keep unimplemented history and persistence clearly identified; invent no business-impact metrics.
+- Generate responsive 400px/800px WebP encodings from the original portrait. Retain the PNG and existing CSS color treatment; add intrinsic dimensions, responsive source selection, and high fetch priority.
+- Add per-page canonical URLs, descriptions, Open Graph/large-card metadata, and a shared deterministic 1200×630 typographic preview matching the existing palette. Sharing changes require deployment and may be cached by external platforms.
+- Keep the native contact form and required fields. End-to-end delivery requires recipient confirmation; do not treat provider reachability or local validation as proof of inbox receipt.
+- Replace the sample-data league preview with the actual ESPN dashboard capture saved on October 12, 2026, retaining the static October capture caption.
+- Validation: JavaScript syntax, active-page local assets and links, canonical/social metadata, responsive image sources, desktop rendering, and native contact validation passed. Browser mobile viewport override could not be confirmed; responsive CSS is unchanged.
+- The owner activated FormSubmit and confirmed receipt of the test message on October 28, 2026. End-to-end email delivery is verified by recipient confirmation.
